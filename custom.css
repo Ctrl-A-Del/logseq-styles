@@ -3,10 +3,13 @@
 
 /* You can also add other styles below to override the default theme values */
 
+
+/* increase font size */
 body {
   font-size: 18px;
 }
 
+/* fix the alignment of the bullet threading */
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
   left: -17px;
 }
